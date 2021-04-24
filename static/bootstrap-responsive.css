@@ -1,0 +1,123 @@
+/* Large desktop */
+@media (min-width: 1200px) { 
+    /* TBD */
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media only screen and (max-width: 960px) { 
+    body {
+        min-width: 780px;
+    }
+
+    main, header, .row, .container {
+        max-width: 835px;
+    }
+
+    .span12{
+        max-width: 795px
+    }
+
+    main {
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p.abbr {
+        font-size: 15px;
+    }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media only screen and (max-width: 767px) { 
+    body {
+        min-width: 480px;
+    }
+
+    main, header, .navbar {
+        max-width: 320px;
+    }
+
+    .row, .container {
+        width: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .span12{
+        max-width: 300px;
+        padding: 0;
+        margin: 0;
+    }
+
+    main {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px) { 
+    body {
+        min-width: 320px;
+    }
+
+    header {
+        margin-top: 35px;
+    }
+
+    main, header, .navbar, .navbar-fixed-top .container {
+        max-width: 375px;
+    }
+
+    .hero-unit {
+        margin: 0;
+    }
+
+    .row, .container {
+        width: 335px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .span12{
+        max-width: 335px;
+        padding: 0;
+        margin: 0;
+    }
+
+    main {
+        margin: 10px;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    body {
+        min-width: 280px;
+    }
+
+    header {
+        margin-top: 35px;
+    }
+
+    main, header, .navbar, .navbar-fixed-top .container {
+        max-width: 320px;
+    }
+
+    .row, .container {
+        width: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .span12{
+        max-width: 300px;
+        padding: 0;
+        margin: 0;
+    }
+}
