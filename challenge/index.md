@@ -8,7 +8,7 @@ responsive: true
 
 <!-- Overview -->
 
-<section id="overview" markdown="1">
+<section class="challenge-section" id="overview" markdown="1">
 
 # Overview
 
@@ -24,7 +24,7 @@ Mobile apps have become ubiquitous. However, many of them do not fully leverage 
 
 <!-- Task Description -->
 
-<section id="task" markdown="1">
+<section  class="challenge-section" id="task" markdown="1">
 
 # Task Description
 
@@ -64,7 +64,7 @@ If the app developers have extended Punya features for their app, they must make
 
 <!-- Important Dates -->
 
-<section id="timeline" markdown="1">
+<section  class="challenge-section" id="timeline" markdown="1">
 
 # Important Dates
 
@@ -107,13 +107,16 @@ The challenge timeline is composed of the following tasks. We will require all p
 
 <!-- Resources: Software & Tutorials -->
 
-<section id="resources" markdown="1">
+<section  class="challenge-section" id="resources" markdown="1">
 
 # Punya resources
 
 <div class="row">
 <div class="span12" markdown="1">
-The Punya open-source code repository is available at [https://github.com/mit-dig/punya](https://github.com/mit-dig/punya){:target="_blank"}.
+
+The Punya MIT App Inventor endpoint is available at [http://punya.appinventor.mit.edu](http://punya.appinventor.mit.edu){:target="_blank"}.
+
+The Punya open-source code repository is available at [https://github.com/mit-dig/punya](https://github.com/mit-dig/punya){:target="_blank"}. 
 
 We also have extensive documentation on the Punya components at [https://punya.mit.edu](https://punya.mit.edu){:target="_blank"}.
 
@@ -129,7 +132,8 @@ basics of using the ``LinkedDataForm`` to construct and edit RDF graphs and read
 * [Sleep Apnea](http://punya.appinventor.mit.edu/?repo=SleepApnea){:target="_blank"}: write rules in Punya and use them to reason about RDF data exploiting the ``Reasoner`` component;
 * [LDP-CoAP sensing app](http://punya.appinventor.mit.edu/?repo=LdpCoapTutorial){:target="_blank"}: share device sensors data in Semantic Web of Things scenarios using the ``LdpCoapClient``.
 
-Further information is available on the [Punya use cases](https://punya.mit.edu/#use-cases){:target="_blank"} section.
+Additionaly, challenge participants can refer to the [Punya tutorials](/tutorials){:target="_blank"} section.
+Further information on how Punya can be used in several prototypical applications is available on the [Punya use cases](https://punya.mit.edu/#use-cases){:target="_blank"} section.
 
 ### MIT App Inventor community
 
@@ -142,7 +146,7 @@ Because Punya is built on _MIT App Inventor_, partecipants can tap into a large 
 
 <!-- Evaluation -->
 
-<section id="evaluation" markdown="1">
+<section  class="challenge-section" id="evaluation" markdown="1">
 
 # Evaluation
 
@@ -166,18 +170,18 @@ We have invited senior leaders, scientists, researchers, and highly reputed mana
 
 <!-- Organizers -->
 
-<section id="organizers" markdown="1">
+<section  class="challenge-section" id="organizers" markdown="1">
 
 # Challenge Organizers
 
 <div class="row">
 <div class="span12" markdown="1">
-* [Oshani Seneviratne](https://idea.rpi.edu/people/staff/oshani-seneviratne){:target="_blank"} - Rensselaer Polytechnic Institute, USA
 * [Lalana Kagal](https://www.csail.mit.edu/person/lalana-kagal){:target="_blank"} - Massachusetts Institute of Technology, USA
 * [Giuseppe Loseto](http://sisinflab.poliba.it/loseto){:target="_blank"} - Polytechnic University of Bari, Italy
 * [Evan W. Patton](https://www.csail.mit.edu/person/evan-patton){:target="_blank"} - Massachusetts Institute of Technology, USA
 * [Floriano Scioscia](http://sisinflab.poliba.it/scioscia){:target="_blank"} - Polytechnic University of Bari, Italy
-* [William Van Woensel](https://niche.cs.dal.ca/william-van-woensel){:target="_blank"} - Dalhousie University, Canada
+* [Oshani Seneviratne](https://idea.rpi.edu/people/staff/oshani-seneviratne){:target="_blank"} - Rensselaer Polytechnic Institute, USA
+* [William Van Woensel](https://niche.cs.dal.ca/william-van-woensel){:target="_blank"} - Dalhousie University, Canada 
 
 For any information, please contact the challenge organizers.
 </div>
