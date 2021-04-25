@@ -30,7 +30,7 @@ Mobile apps have become ubiquitous. However, many of them do not fully leverage 
 
 <div class="row">
 <div class="span12" markdown="1">
-Participants will build an intelligent mobile app using the __Punya__ framework that connects with online Linked Data sources and services, nearby IoT devices or on-device sensors, and/or implement expert system features, by producing, consuming, and processing Linked Data. 
+Participants will build an intelligent mobile app using the __Punya__ framework that connects with online Linked Data sources and services, nearby IoT devices or on-device sensors, and/or implement expert system features, by producing, consuming, and processing Linked Data.
 
 To that end, participants may extend the Punya framework itself with new Linked Data components, or extend existing ones. The challenge participants will be expected to utilize at least two Punya __Linked Data__ components, which currently include the:
 * ``LinkedDataForm``
@@ -50,7 +50,7 @@ Apps should tackle relevant and challenging __real-world scenarios__ that impact
 * Social and Racial Justice
 * Social Impact of Artificial Intelligence (e.g., biases, opportunities, equitability)
 
-The apps developed will need to present end-user interactions, providing an adequate and usable interface that favors concrete usage. 
+The apps developed will need to present end-user interactions, providing an adequate and usable interface that favors concrete usage.
 We require the challenge participants to provide:
 * a 2-minute video demo for the judges;
 * the .aia file of their mobile app that can be loaded into the Punya MIT App Inventor endpoint at [http://punya.appinventor.mit.edu](http://punya.appinventor.mit.edu){:target="_blank"};
@@ -113,18 +113,18 @@ The challenge timeline is composed of the following tasks. We will require all p
 
 <div class="row">
 <div class="span12" markdown="1">
-The Punya open-source code repository is available at [https://github.com/mit-dig/punya](https://github.com/mit-dig/punya){:target="_blank"}. 
+The Punya open-source code repository is available at [https://github.com/mit-dig/punya](https://github.com/mit-dig/punya){:target="_blank"}.
 
-We also have extensive documentation on the Punya components at [https://punya.mit.edu](https://punya.mit.edu){:target="_blank"}. 
+We also have extensive documentation on the Punya components at [https://punya.mit.edu](https://punya.mit.edu){:target="_blank"}.
 
 ### Learning materials
 
-Several of the challenge organizers ran a successful tutorial titled __“Building Mobile Semantic Web Appswith Punya”__ at _ISWC 2020_, and the tutorial material is available at [https://punya2020.appinventor.mit.edu](https://punya2020.appinventor.mit.edu){:target="_blank"}. 
+Several of the challenge organizers ran a successful tutorial titled __“Building Mobile Semantic Web Appswith Punya”__ at _ISWC 2020_, and the tutorial material is available at [https://punya2020.appinventor.mit.edu](https://punya2020.appinventor.mit.edu){:target="_blank"}.
 
 This material will help guide participants through the use of Punya for building complex and intelligent mobile apps, as it outlines the use of the Punya Linked Data components in real-world scenarios. Mobile apps developed as part of this challenge may leverage existing online Linked Data (e.g., Wikidata, DBPedia, Bio2RDF) or put online their own queryable Linked Data.
 
 According to the ISWC 2020 material, Punya also includes the following built-in tutorials for learning how to build Linked Data-aware mobile apps:
-* [RDF Notepad](http://punya.appinventor.mit.edu/?repo=RdfNotepad){:target="_blank"}: 
+* [RDF Notepad](http://punya.appinventor.mit.edu/?repo=RdfNotepad){:target="_blank"}:
 basics of using the ``LinkedDataForm`` to construct and edit RDF graphs and reading and writing of RDF using the ``LinkedData`` component;
 * [Sleep Apnea](http://punya.appinventor.mit.edu/?repo=SleepApnea){:target="_blank"}: write rules in Punya and use them to reason about RDF data exploiting the ``Reasoner`` component;
 * [LDP-CoAP sensing app](http://punya.appinventor.mit.edu/?repo=LdpCoapTutorial){:target="_blank"}: share device sensors data in Semantic Web of Things scenarios using the ``LdpCoapClient``.
@@ -148,7 +148,7 @@ Because Punya is built on _MIT App Inventor_, partecipants can tap into a large 
 
 <div class="row">
 <div class="span12" markdown="1">
-A panel of senior Semantic Web and mobile application researchers will judge the submitted apps. 
+A panel of senior Semantic Web and mobile application researchers will judge the submitted apps.
 We have invited senior leaders, scientists, researchers, and highly reputed managers with expertise in the Semantic Web and/or mobile computing communities to be in the panel of judges. Already confirmed members include:
 
 * [Fernando Bobillo](http://webdiis.unizar.es/~fbobillo/){:target="_blank"}, Associate Professor of Artificial Intelligence - Universidad de Zaragoza, Spain
@@ -177,7 +177,7 @@ We have invited senior leaders, scientists, researchers, and highly reputed mana
 * [Giuseppe Loseto](http://sisinflab.poliba.it/loseto){:target="_blank"} - Polytechnic University of Bari, Italy
 * [Evan W. Patton](https://www.csail.mit.edu/person/evan-patton){:target="_blank"} - Massachusetts Institute of Technology, USA
 * [Floriano Scioscia](http://sisinflab.poliba.it/scioscia){:target="_blank"} - Polytechnic University of Bari, Italy
-* [William Van Woensel](https://niche.cs.dal.ca/william-van-woensel){:target="_blank"} - Dalhousie University, Canada 
+* [William Van Woensel](https://niche.cs.dal.ca/william-van-woensel){:target="_blank"} - Dalhousie University, Canada
 
 For any information, please contact the challenge organizers.
 </div>
