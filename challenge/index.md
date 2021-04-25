@@ -64,7 +64,7 @@ If the app developers have extended Punya features for their app, they must make
 
 <!-- Important Dates -->
 
-<section  class="challenge-section" id="timeline" markdown="1">
+<section class="challenge-section" id="timeline" markdown="1">
 
 # Important Dates
 
@@ -107,7 +107,7 @@ The challenge timeline is composed of the following tasks. We will require all p
 
 <!-- Resources: Software & Tutorials -->
 
-<section  class="challenge-section" id="resources" markdown="1">
+<section class="challenge-section" id="resources" markdown="1">
 
 # Punya resources
 
@@ -116,7 +116,7 @@ The challenge timeline is composed of the following tasks. We will require all p
 
 The Punya MIT App Inventor endpoint is available at [http://punya.appinventor.mit.edu](http://punya.appinventor.mit.edu){:target="_blank"}.
 
-The Punya open-source code repository is available at [https://github.com/mit-dig/punya](https://github.com/mit-dig/punya){:target="_blank"}. 
+The Punya open-source code repository is available at [https://github.com/mit-dig/punya](https://github.com/mit-dig/punya){:target="_blank"}.
 
 We also have extensive documentation on the Punya components at [https://punya.mit.edu](https://punya.mit.edu){:target="_blank"}.
 
@@ -146,7 +146,7 @@ Because Punya is built on _MIT App Inventor_, partecipants can tap into a large 
 
 <!-- Evaluation -->
 
-<section  class="challenge-section" id="evaluation" markdown="1">
+<section class="challenge-section" id="evaluation" markdown="1">
 
 # Evaluation
 
@@ -170,7 +170,7 @@ We have invited senior leaders, scientists, researchers, and highly reputed mana
 
 <!-- Organizers -->
 
-<section  class="challenge-section" id="organizers" markdown="1">
+<section class="challenge-section" id="organizers" markdown="1">
 
 # Challenge Organizers
 
@@ -181,7 +181,7 @@ We have invited senior leaders, scientists, researchers, and highly reputed mana
 * [Evan W. Patton](https://www.csail.mit.edu/person/evan-patton){:target="_blank"} - Massachusetts Institute of Technology, USA
 * [Floriano Scioscia](http://sisinflab.poliba.it/scioscia){:target="_blank"} - Polytechnic University of Bari, Italy
 * [Oshani Seneviratne](https://idea.rpi.edu/people/staff/oshani-seneviratne){:target="_blank"} - Rensselaer Polytechnic Institute, USA
-* [William Van Woensel](https://niche.cs.dal.ca/william-van-woensel){:target="_blank"} - Dalhousie University, Canada 
+* [William Van Woensel](https://niche.cs.dal.ca/william-van-woensel){:target="_blank"} - Dalhousie University, Canada
 
 For any information, please contact the challenge organizers.
 </div>
