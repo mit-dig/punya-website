@@ -30,7 +30,9 @@ Our vision is to build up an ecosystem of multi-language and multi-modal tools a
 
 <section id="use-cases" markdown="1">
 
-### Use Case <small> Mobile App Development for Disaster Management</small>
+### Use Cases
+
+#### Mobile App Development for Disaster Management
 
 <div class="row">
 <div class="span6" markdown="1">
@@ -47,6 +49,10 @@ On his way to the grocery store, after a severe hurricane, Joe noticed many part
 
 </div>
 </div>
+
+#### Experience Sampling Methods using Mobile Sensors
+
+Shih captured contextual data about everyday mobile use with components of Punya and prompted smartphone users about their privacy preferences under different circumstances.[^1] Shih used a number of different "probes" to collect information about what the user was doing, including location information, what apps were running on the device and when, etc. The `Survey` component was utilized to ask the users questions about their perceived privacy. The `GoogleCloudMessaging` component was used for scheduling push notifications to the device to initiate user surveys. Other researchers can similarly leverage these components to employ experience sampling methodology in their research apps.
 
 </section>
 
@@ -105,3 +111,7 @@ Furthermore, you will also learn how to modify WeReport app to meet your needs. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SQkX56FVRHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </section>
+
+# References & Footnotes
+
+[^1]: Shih, F. [ContextProbe: Exploring mobile privacy in context](https://dspace.mit.edu/handle/1721.1/97811). Ph.D. Thesis, MIT (2015)
