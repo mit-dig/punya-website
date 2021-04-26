@@ -168,6 +168,12 @@ We have invited senior leaders, scientists, researchers, and highly reputed mana
 
 </section>
 
+<!-- Prizes -->
+
+# Prizes
+
+Up to US$ 1000 will be split among the top projects as assessed by the judges and determined by the organizers.
+
 <!-- Organizers -->
 
 <section class="challenge-section" id="organizers" markdown="1">
