@@ -101,3 +101,24 @@ footer {
 }
 
 .challenge-section {padding-top: 65px;}
+
+/*------------------------------------------------*/
+/* Miscellaneous
+/*------------------------------------------------*/
+
+p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+li {
+  line-height: 22px;
+}
+
+body {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 16px;
+}
