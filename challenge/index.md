@@ -122,7 +122,7 @@ We also have extensive documentation on the Punya components at [https://punya.m
 
 ### Learning materials
 
-Several of the challenge organizers ran a successful tutorial titled __“Building Mobile Semantic Web Appswith Punya”__ at _ISWC 2020_, and the tutorial material is available at [https://punya2020.appinventor.mit.edu](https://punya2020.appinventor.mit.edu){:target="_blank"}.
+Several of the challenge organizers ran a successful tutorial titled __“Building Mobile Semantic Web Apps with Punya”__ at _ISWC 2020_, and the tutorial material is available at [https://punya2020.appinventor.mit.edu](https://punya2020.appinventor.mit.edu){:target="_blank"}.
 
 This material will help guide participants through the use of Punya for building complex and intelligent mobile apps, as it outlines the use of the Punya Linked Data components in real-world scenarios. Mobile apps developed as part of this challenge may leverage existing online Linked Data (e.g., Wikidata, DBPedia, Bio2RDF) or put online their own queryable Linked Data.
 
