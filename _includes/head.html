@@ -15,4 +15,22 @@
   {%- if page.responsive -%}
   <link href="/static/bootstrap-responsive.css" rel="stylesheet">
   {%- endif -%}
+
+  <!-- Open Graph Protocol Tags (https://ogp.me) -->
+  <meta content="{{ site.title }}" property="og:site_name">
+  {% if page.title %}
+    <meta content="{{ page.title }}" property="og:title">
+  {% else %}
+    <meta content="{{ site.title }}" property="og:title">
+  {% endif %}
+  <meta content="website" property="og:type">
+  {% if page.description %}
+    <meta content="{{ page.description }}" property="og:description">
+  {% else %}
+    <meta content="{{ site.description }}" property="og:description">
+  {% endif %}
+  {% if page.url %}
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+  {% endif %}
+  <meta content="{{ site.url }}/images/app-inventor.png" property="og:image">
 </head>

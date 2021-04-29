@@ -4,6 +4,8 @@
 
 layout: challenge
 responsive: true
+title: Operationalizing Linked Data in Mobile Apps Using MIT App Inventor's Punya
+description: ISWC 2021 Semantic Web Challenge
 ---
 
 <!-- Overview -->
@@ -163,6 +165,19 @@ We have invited senior leaders, scientists, researchers, and highly reputed mana
 * [Vito C. Ostuni](https://www.linkedin.com/in/vito-claudio-ostuni-0b576027){:target="_blank"}, Senior Research Scientist - Recommendation and Search - Netflix, Inc., Los Gatos, CA, USA
 * [Michele Ruta](http://sisinflab.poliba.it/ruta){:target="_blank"}, Professor of Information Systems - Polytechnic University of Bari, Italy
 * [Juan Sequeda](https://juansequeda.com){:target="_blank"}, Principal Scientist - data.world, Austin, TX, USA
+
+### Review criteria 
+
+Submitted apps will be evaluated according to the following criteria:
+
+* __creativity__: App idea is very unique or a novel take on other ideas, and/or a different mix of technologies/ components;
+* __design__: Excellent aesthetics, well beyond basic Punya typical UI. Inviting layout/colors, very clear how to use. Flows well;
+* __potential usefulness__: App demonstrates significant potential impact that relates to theme(s). Demonstrates it can effectively help the target audience;
+* __technical skill__: Well thought out and/or clever coding. Procedures used over duplicate code. Major app components are beyond common User Interface components used. Possible use of Any Component;
+* __presentation__: (video and supporting materials) Excellent use of video components to explain the app. Communicates well the importance and effectiveness of the app and its relation to theme(s);
+* __Linked Data consumption__: The app consumes multiple online Linked Data sources/services to support the app’s functionality. Additionally, the app consumes Linked Data generated from multiple IoT devices or on-board sensors;
+* __Linked Data production__: All app data is produced as Linked Data using well-known domain ontologies. The produced Linked Data is either uploaded to an online service or stored locally;
+* __Linked Data operationalization__: Linked Data is processed using highly complex semantic rules, authored using the Punya editor or loaded from a file. Additionally, or alternatively, SPARQL queries encompass complex matching logic.
 </div>
 </div>
 
