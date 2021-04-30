@@ -54,6 +54,17 @@ On his way to the grocery store, after a severe hurricane, Joe noticed many part
 
 Shih captured contextual data about everyday mobile use with components of Punya and prompted smartphone users about their privacy preferences under different circumstances.[^1] Shih used a number of different "probes" to collect information about what the user was doing, including location information, what apps were running on the device and when, etc. The `Survey` component was utilized to ask the users questions about their perceived privacy. The `GoogleCloudMessaging` component was used for scheduling push notifications to the device to initiate user surveys. Other researchers can similarly leverage these components to employ experience sampling methodology in their research apps.
 
+#### Patient Diary for Sleep Apnea
+
+<img src="images/sleep_apnea_app.png" style="float:right; width: 325px" />
+
+Mobile patient diaries are apps used by chronic patients to record medications, symptoms, and vitals---they provide a convenient way for patients to keep track of their health data, and, when they are integrated into Electronic Health Records (EHR), communicate health data to clinicians for longitudinal follow-up. Clinical decision support (CDS) tools, added to the EHR system, can issue recommendations to help with diagnosis and treatment.
+
+In many cases, however, it would be opportune for a patient diary to directly provide decision support: for urgent patient health issues, when wireless connectivity is lacking, or when secure integration with an EHR system is non-existent. Sleep Apnea, for example, has an estimated prevalence from 3% to nearly 50% depending on age group and sex[^2], with a gold-standard diagnosis involving polysomnography[^3], a comprehensive test which involves monitoring heart, lung, and brain activity, breathing patterns, and blood oxygen levels. However, more simple home sleep apnea testing may be used to indicate the diagnosis in symptomatic patients[^2]. An app, running locally on the user's device and outfitted with mobile decision support, can directly analyze the user's health, based on user input and sensor data, and issue a potential diagnosis of sleep apnea[^4].
+
+In general, researchers can leverage the `Ruleset` blocks, `LinkedData` and `Reasoner` components, to implement mobile decision support on smartphones. A [dedicated tutorial](http://punya.appinventor.mit.edu/?repo=SleepApnea) provides step-by-step directions on how to implement a sleep-apnea mobile app.
+
+
 </section>
 
 <section id="platform" markdown="1">
@@ -115,3 +126,6 @@ Furthermore, you will also learn how to modify WeReport app to meet your needs. 
 # References & Footnotes
 
 [^1]: Shih, F. [ContextProbe: Exploring mobile privacy in context](https://dspace.mit.edu/handle/1721.1/97811). Ph.D. Thesis, MIT (2015)
+[^2]: Laratta, C.R., Ayas, N.T., Povitz, M., Pendharkar, S.R.: Diagnosis and treatmentof obstructive sleep apnea in adults. CMAJ189(48), E1481–E1488 (2017)
+[^3]: Mayo  Clinic:  Polysomnography  (sleep  study),https://www.mayoclinic.org/tests-procedures/polysomnography/about/pac-20394877
+[^4]: Roy, P.C., Al Haider, N., Van Woensel, W., Ahmad, A.M., Abidi, S.S.R. Towards Guideline Compliant Clinical Decision Support System Integration in Smart and Mobile Environments: Formalizing and Using Clinical Guidelines For Diagnosing Sleep Apnea. AAAI Workshop on Artificial Intelligence Applied to Assistive Technologies and Smart Environments (ATSE 2014), AAAI Press, Quebec, Canada, 2014.
