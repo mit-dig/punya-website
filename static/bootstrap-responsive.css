@@ -48,6 +48,10 @@
     .brand {
         padding-left: 30px !important;
     }
+
+    footer {
+        padding: 18px;
+    }
 }
 
 /* Landscape phone to portrait tablet */
