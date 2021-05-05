@@ -23,8 +23,20 @@
         padding: 0;
     }
 
-    .span12{
-        max-width: 100%;
+    .span12, .span9, .footnotes {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .span6 {
+        width: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .span5 {
+        width: 45%;
         padding: 0;
         margin: 0;
     }
@@ -78,5 +90,11 @@
 
     main {
         margin: 10px;
+    }
+
+    .span6, .span5, iframe {
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
 }
