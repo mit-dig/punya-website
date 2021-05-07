@@ -23,8 +23,14 @@
         padding: 0;
     }
 
-    .span12, .span9, .footnotes {
+    .span12, .footnotes {
         width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .span9 {
+        width: 75%;
         padding: 0;
         margin: 0;
     }

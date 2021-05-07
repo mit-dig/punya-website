@@ -4,7 +4,7 @@
 
 layout: home
 responsive: true
-title: The Punya project 
+title: The Punya Project 
 description: Punya is not your average app
 ---
 
