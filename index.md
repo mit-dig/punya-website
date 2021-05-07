@@ -3,6 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+responsive: true
+title: The Punya Project 
+description: Punya is not your average app
 ---
 
 <section id="overview" markdown="1">
@@ -64,6 +67,21 @@ In many cases, however, it would be opportune for a patient diary to directly pr
 
 In general, researchers can leverage the `Ruleset` blocks, `LinkedData` and `Reasoner` components, to implement mobile decision support on smartphones. A [dedicated tutorial](http://punya.appinventor.mit.edu/?repo=SleepApnea) provides step-by-step directions on how to implement a sleep-apnea mobile app.
 
+#### Punya in the Semantic Web of Things: LDP-CoAP
+
+The _Semantic Web of Things_ (SWoT) vision integrates knowledge representation and reasoning techniques from the Semantic Web into Internet of Things architectures providing more advanced service/resource management and discovery. SWoT enables new classes of smart applications that augment real-world objects, locations, and events with machine-understandable data, annotated with a domain ontology, using mobile and pervasive devices such as smartphones, wearables, and IoT sensors.
+Currently, Punya supports _LDP-CoAP_ [^5], a SWoT protocol that enables lightweight, LD-based resource dissemination and discovery in dynamic ad-hoc contexts.
+
+An example of mobile phone sensor sharing app is proposed exploiting the `LdpCoapClient` component for Punya. 
+The app works as a client of an external CoAP server, publishing sensors and sensor data as [Linked Data Platform](https://www.w3.org/TR/ldp/) resources, to discover resources published by other applications.
+A [dedicated tutorial]((http://punya.appinventor.mit.edu/?repo=LdpCoapTutorial)) provides step-by-step directions on how to implement a sensor sharing app for the Semantic Web of Things.
+
+#### Collection of Semantic Sensor Network data
+
+Kinkead _et al._[^6] proposed a mobile application for recording semantic metadata about sensor network deployments and experimental settings in real time in order to enable a more efficient and less error-prone data collection.
+In particular, the app uses the device camera to identify a sensor using their QRcode, and GPS to automatically identify the sensor location.
+Gathered dara are used to study water and ecosystem quality around Lake George (NY, USA).
+The quick prototyping of such research apps, by non-IT professionals (in this case, ecologists), requires an end-user development platform with a minimal learning curve. Using Punya, the ecologists were able to develop the app in a matter of weeks; moreover, the researchers believed that the platform could be similarly utilized also to rapidly prototype observation-based mobile apps in other fields.
 
 </section>
 
@@ -129,3 +147,5 @@ Furthermore, you will also learn how to modify WeReport app to meet your needs. 
 [^2]: Laratta, C.R., Ayas, N.T., Povitz, M., Pendharkar, S.R.: Diagnosis and treatmentof obstructive sleep apnea in adults. CMAJ189(48), E1481–E1488 (2017)
 [^3]: Mayo  Clinic:  Polysomnography  (sleep  study),https://www.mayoclinic.org/tests-procedures/polysomnography/about/pac-20394877
 [^4]: Roy, P.C., Al Haider, N., Van Woensel, W., Ahmad, A.M., Abidi, S.S.R. Towards Guideline Compliant Clinical Decision Support System Integration in Smart and Mobile Environments: Formalizing and Using Clinical Guidelines For Diagnosing Sleep Apnea. AAAI Workshop on Artificial Intelligence Applied to Assistive Technologies and Smart Environments (ATSE 2014), AAAI Press, Quebec, Canada, 2014.
+[^5]: Loseto, G., Ieva, S., Gramegna, F., Ruta, M., Scioscia, F., Di Sciascio, E.: [Linked Data (in low-resource) Platforms: a mapping for Constrained Application Protocol](https://link.springer.com/chapter/10.1007/978-3-319-46547-0_14), The Semantic Web - ISWC 2016: 15th International Semantic Web Conference, Volume 9982, pp. 131-139 (2016).
+[^6]: Kinkead, L., Pinheiro, P., McGuinness, D.L.: [Automating the collection of semantic sensor network metadata in the field with mobile applications](http://ceur-ws.org/Vol-1506/paper4.pdf). In: Proc. 1st Int. Workshop on Mobile Deployment of Semantic Technol. pp. 32–43 (2015)
