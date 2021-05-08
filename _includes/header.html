@@ -1,34 +1,39 @@
-<nav>
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-      <a class="brand" style="color: white;" href="#overview">Punya</a>
-      <div class="nav-collapse">
-        <ul class="nav">
-          <li><a href="#overview">Overview</a></li>
-          <!--<li><a href="#use-cases">Use Case</a></li>
-	      <li><a href="#publications">Publications</a></li>
-              <li><a href="#platform">Platform</a></li> -->
-          <li><a href="#quickstart">Quick Start</a></li> 
-          <li><a href="tutorials/">Tutorials</a></li>
-          <li><a href="challenge/">ISWC'21 Challenge</a></li>
-          <li><a href="#contact">Contact</a></li>          
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#overview">Punya</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#overview">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#use-cases">Use cases</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#quickstart">Quick Start</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tutorials/">Tutorials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="challenge/">ISWC'21 Challenge</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
   </div>
-</div>
 </nav>
+
 {%- if layout.header -%}
-<header>
-  <div class="hero-unit">
-    <h1>Punya</h1>
-    <p class="abbr"><span>Pu</span>nya is <span>n</span>ot <span>y</span>our <span>a</span>verage app</p>
+<div class="px-4 py-4 text-center border-bottom bg-punya text-white">
+  <h1 class="display-4 fw-bold">Punya</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead"><span>Pu</span>nya is <span>n</span>ot <span>y</span>our <span>a</span>verage app</p>
   </div>
-</header>
+</div>
 {%- endif -%}
