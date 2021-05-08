@@ -10,9 +10,9 @@ description: ISWC 2021 Semantic Web Challenge
 
 <!-- Overview -->
 
-<section class="challenge-section" id="overview" markdown="1">
+<section class="pt-5" id="overview" markdown="1">
 
-# Overview
+## Overview
 
 <div class="row">
 <div class="span12" markdown="1">
@@ -26,9 +26,9 @@ Mobile apps have become ubiquitous. However, many of them do not fully leverage 
 
 <!-- Task Description -->
 
-<section  class="challenge-section" id="task" markdown="1">
+<section  class="pt-5" id="task" markdown="1">
 
-# Task Description
+## Task Description
 
 <div class="row">
 <div class="span12" markdown="1">
@@ -66,9 +66,9 @@ If the app developers have extended Punya features for their app, they must make
 
 <!-- Important Dates -->
 
-<section class="challenge-section" id="timeline" markdown="1">
+<section class="pt-5" id="timeline" markdown="1">
 
-# Important Dates
+## Important Dates
 
 <div class="row">
 <div class="span12" markdown="1">
@@ -109,9 +109,9 @@ The challenge timeline is composed of the following tasks. We will require all p
 
 <!-- Resources: Software & Tutorials -->
 
-<section class="challenge-section" id="resources" markdown="1">
+<section class="pt-5" id="resources" markdown="1">
 
-# Punya resources
+## Punya resources
 
 <div class="row">
 <div class="span12" markdown="1">
@@ -122,7 +122,7 @@ The Punya open-source code repository is available at [https://github.com/mit-di
 
 We also have extensive documentation on the Punya components at [https://punya.mit.edu](https://punya.mit.edu){:target="_blank"}.
 
-### Learning materials
+#### Learning materials
 
 Several of the challenge organizers ran a successful tutorial titled __“Building Mobile Semantic Web Apps with Punya”__ at _ISWC 2020_, and the tutorial material is available at [https://punya2020.appinventor.mit.edu](https://punya2020.appinventor.mit.edu){:target="_blank"}.
 
@@ -137,7 +137,7 @@ basics of using the ``LinkedDataForm`` to construct and edit RDF graphs and read
 Additionaly, challenge participants can refer to the [Punya tutorials](/tutorials){:target="_blank"} section.
 Further information on how Punya can be used in several prototypical applications is available on the [Punya use cases](https://punya.mit.edu/#use-cases){:target="_blank"} section.
 
-### MIT App Inventor community
+#### MIT App Inventor community
 
 Because Punya is built on _MIT App Inventor_, partecipants can tap into a large community of app developers worldwide (1,967 active community members in the 30 days ending April 1, 2021, and almost 900,000 yearly active users): [https://community.appinventor.mit.edu](https://community.appinventor.mit.edu){:target="_blank"}.
 
@@ -148,9 +148,9 @@ Because Punya is built on _MIT App Inventor_, partecipants can tap into a large 
 
 <!-- Evaluation -->
 
-<section class="challenge-section" id="evaluation" markdown="1">
+<section class="pt-5" id="evaluation" markdown="1">
 
-# Evaluation
+## Evaluation
 
 <div class="row">
 <div class="span12" markdown="1">
@@ -166,7 +166,7 @@ We have invited senior leaders, scientists, researchers, and highly reputed mana
 * [Michele Ruta](http://sisinflab.poliba.it/ruta){:target="_blank"}, Professor of Information Systems - Polytechnic University of Bari, Italy
 * [Juan Sequeda](https://juansequeda.com){:target="_blank"}, Principal Scientist - data.world, Austin, TX, USA
 
-### Review criteria 
+#### Review criteria 
 
 Submitted apps will be evaluated according to the following criteria:
 
@@ -185,15 +185,19 @@ Submitted apps will be evaluated according to the following criteria:
 
 <!-- Prizes -->
 
-# Prizes
+<section class="pt-5" id="prizes" markdown="1">
+
+## Prizes
 
 Up to US$ 1000 will be split among the top projects as assessed by the judges and determined by the organizers.
 
+</section>
+
 <!-- Organizers -->
 
-<section class="challenge-section" id="organizers" markdown="1">
+<section class="pt-5" id="organizers" markdown="1">
 
-# Challenge Organizers
+## Challenge Organizers
 
 <div class="row">
 <div class="span12" markdown="1">

@@ -8,13 +8,14 @@
   {%- endif -%}
   <title>{{ page.title }}</title>
 
-  <link href="/static/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="/static/bootstrap.icon-large.min.css" rel="stylesheet" type="text/css">
-  <link href="/static/style.css" rel="stylesheet" type="text/css">
+  <!-- Compiled and minified Bootstrap v5.0.0 CSS bundles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" 
+    crossorigin="anonymous">
 
-  {%- if page.responsive -%}
-  <link href="/static/bootstrap-responsive.css" rel="stylesheet">
-  {%- endif -%}
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/static/style.css">
 
   <!-- Open Graph Protocol Tags (https://ogp.me) -->
   <meta content="{{ site.title }}" property="og:site_name">
