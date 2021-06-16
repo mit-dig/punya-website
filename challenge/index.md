@@ -102,8 +102,20 @@ The challenge timeline is composed of the following tasks. We will require all p
   </tr>
 </tbody>
 </table>
+
+
 </div>
 </div>
+
+</section>
+
+<!-- Submission -->
+
+<section class="challenge-section" id="submission" markdown="1">
+
+# Submission
+
+Please submit your ideas [here](https://forms.gle/gEQ5gMurwNjjw32FA){:target="_blank"}!
 
 </section>
 
