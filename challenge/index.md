@@ -82,7 +82,7 @@ The challenge timeline is composed of the following tasks. We will require all p
 <tbody>
   <tr>
     <td>Check-in of Mobile Apps with Challenge Organizers</td>
-    <td>15 June 2021</td>
+    <td><del>15 June 2021</del> 30 June 2021 (extended)</td>
   </tr>
   <tr>
     <td>Submission of Mobile Apps</td>
@@ -115,7 +115,13 @@ The challenge timeline is composed of the following tasks. We will require all p
 
 # Submission
 
-Please submit your ideas [here](https://forms.gle/gEQ5gMurwNjjw32FA){:target="_blank"}!
+<p>We strongly recommend that you submit your application ideas by <b>30 June 2021</b>. 
+You can include your preliminary <code>.aia</code> file along with the submission.
+After which, the challenge organizers will give feedback on your application idea, and provide any necessary technical guidance on Punya.</p>
+
+<p>Please submit your ideas [here](https://forms.gle/gEQ5gMurwNjjw32FA){:target="_blank"}!</p>
+
+<p><i>The link to the final submission will be available later.</i></p>
 
 </section>
 
