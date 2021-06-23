@@ -119,7 +119,7 @@ The challenge timeline is composed of the following tasks. We will require all p
 You can include your preliminary <code>.aia</code> file along with the submission.
 After which, the challenge organizers will give feedback on your application idea, and provide any necessary technical guidance on Punya.</p>
 
-<p>Please submit your ideas [here](https://forms.gle/gEQ5gMurwNjjw32FA){:target="_blank"}!</p>
+<p>Please submit your ideas <a href="https://forms.gle/gEQ5gMurwNjjw32FA">here</a>!</p>
 
 <p><i>The link to the final submission will be available later.</i></p>
 
