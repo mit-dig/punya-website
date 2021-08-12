@@ -74,7 +74,7 @@ Currently, Punya supports _LDP-CoAP_ [^5], a SWoT protocol that enables lightwei
 
 An example of mobile phone sensor sharing app is proposed exploiting the `LdpCoapClient` component for Punya. 
 The app works as a client of an external CoAP server, publishing sensors and sensor data as [Linked Data Platform](https://www.w3.org/TR/ldp/) resources, to discover resources published by other applications.
-A [dedicated tutorial]((http://punya.appinventor.mit.edu/?repo=LdpCoapTutorial)) provides step-by-step directions on how to implement a sensor sharing app for the Semantic Web of Things.
+A [dedicated tutorial](http://punya.appinventor.mit.edu/?repo=LdpCoapTutorial) provides step-by-step directions on how to implement a sensor sharing app for the Semantic Web of Things.
 
 #### Collection of Semantic Sensor Network data
 
