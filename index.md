@@ -70,19 +70,13 @@ In general, researchers can leverage the `Ruleset` blocks, `LinkedData` and `Rea
 #### <a name="diabetes-usecase"></a> Diabetes Management App
 
 <div class="row">
-<div class="span6" markdown="1">
 
-We developed this application as an exemplary prototype mobile app for diabetic patients to manage their diet, exercise, and medication input. Patients can enter their meals and exercises that will be semantically annotated. Upon submitting the form, a knowledge graph will be created automatically with the help of the `LinkedDataForm.` The `SemanticListPicker` is utilized to query external ontologies such as the [FoodOn](https://foodon.org) to retrieve the type and other ontological information pertaining to the food that's entered. The `Ruleset` blocks are utilized to define and execute rules that can be used to ascertain if a particular food is suitable for the user's consumption.
+We developed this application as an exemplary prototype mobile app for diabetic patients to manage their diet, exercise, and medication input. Patients can enter their meals and exercises that will be semantically annotated. Upon submitting the form, a knowledge graph will be created automatically with the help of the `LinkedDataForm`. The `SemanticListPicker` is utilized to query external ontologies such as the [FoodOn](https://foodon.org) to retrieve the type and other ontological information pertaining to the food that's entered. The `Ruleset` blocks are utilized to define and execute rules that can be used to ascertain if a particular food is suitable for the user's consumption.
 
 Project File: [diabetes.aia](resources/diabetes.aia)
 
 </div>
 
-<!-- <div class="span6" markdown="1">
-
-![ App](images/diabetes-meal-input.png){:#img-usecase.max-width}
-
-</div> -->
 </div>
 
 #### <a name="swot-usecase"></a> Punya in the Semantic Web of Things: LDP-CoAP
