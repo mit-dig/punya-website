@@ -35,7 +35,7 @@ Our vision is to build up an ecosystem of multi-language and multi-modal tools a
 
 ### Use Cases
 
-#### Mobile App Development for Disaster Management
+#### <a name="disaster-usecase"></a> Mobile App Development for Disaster Management
 
 <div class="row">
 <div class="span6" markdown="1">
@@ -53,11 +53,11 @@ On his way to the grocery store, after a severe hurricane, Joe noticed many part
 </div>
 </div>
 
-#### Experience Sampling Methods using Mobile Sensors
+#### <a name="experience-usecase"></a> Experience Sampling Methods using Mobile Sensors
 
 Shih captured contextual data about everyday mobile use with components of Punya and prompted smartphone users about their privacy preferences under different circumstances.[^1] Shih used a number of different "probes" to collect information about what the user was doing, including location information, what apps were running on the device and when, etc. The `Survey` component was utilized to ask the users questions about their perceived privacy. The `GoogleCloudMessaging` component was used for scheduling push notifications to the device to initiate user surveys. Other researchers can similarly leverage these components to employ experience sampling methodology in their research apps.
 
-#### Patient Diary for Sleep Apnea
+#### <a name="sleepapnea-usecase"></a> Patient Diary for Sleep Apnea
 
 <img src="images/sleep_apnea_app.png" style="float:right; width: 325px" />
 
@@ -67,7 +67,25 @@ In many cases, however, it would be opportune for a patient diary to directly pr
 
 In general, researchers can leverage the `Ruleset` blocks, `LinkedData` and `Reasoner` components, to implement mobile decision support on smartphones. A [dedicated tutorial](http://punya.appinventor.mit.edu/?repo=SleepApnea) provides step-by-step directions on how to implement a sleep-apnea mobile app.
 
-#### Punya in the Semantic Web of Things: LDP-CoAP
+#### <a name="diabetes-usecase"></a> Diabetes Management App
+
+<div class="row">
+<div class="span6" markdown="1">
+
+We developed this application as an exemplary prototype mobile app for diabetic patients to manage their diet, exercise, and medication input. Patients can enter their meals and exercises that will be semantically annotated. Upon submitting the form, a knowledge graph will be created automatically with the help of the `LinkedDataForm.` The `SemanticListPicker` is utilized to query external ontologies such as the [FoodOn](https://foodon.org) to retrieve the type and other ontological information pertaining to the food that's entered. The `Ruleset` blocks are utilized to define and execute rules that can be used to ascertain if a particular food is suitable for the user's consumption.
+
+Project File: [diabetes.aia](resources/diabetes.aia)
+
+</div>
+
+<!-- <div class="span6" markdown="1">
+
+![ App](images/diabetes-meal-input.png){:#img-usecase.max-width}
+
+</div> -->
+</div>
+
+#### <a name="swot-usecase"></a> Punya in the Semantic Web of Things: LDP-CoAP
 
 The _Semantic Web of Things_ (SWoT) vision integrates knowledge representation and reasoning techniques from the Semantic Web into Internet of Things architectures providing more advanced service/resource management and discovery. SWoT enables new classes of smart applications that augment real-world objects, locations, and events with machine-understandable data, annotated with a domain ontology, using mobile and pervasive devices such as smartphones, wearables, and IoT sensors.
 Currently, Punya supports _LDP-CoAP_ [^5], a SWoT protocol that enables lightweight, LD-based resource dissemination and discovery in dynamic ad-hoc contexts.
@@ -76,7 +94,7 @@ An example of mobile phone sensor sharing app is proposed exploiting the `LdpCoa
 The app works as a client of an external CoAP server, publishing sensors and sensor data as [Linked Data Platform](https://www.w3.org/TR/ldp/) resources, to discover resources published by other applications.
 A [dedicated tutorial]((http://punya.appinventor.mit.edu/?repo=LdpCoapTutorial)) provides step-by-step directions on how to implement a sensor sharing app for the Semantic Web of Things.
 
-#### Collection of Semantic Sensor Network data
+#### <a name="sensornetwork-usecase"></a> Collection of Semantic Sensor Network data
 
 Kinkead _et al._[^6] proposed a mobile application for recording semantic metadata about sensor network deployments and experimental settings in real time in order to enable a more efficient and less error-prone data collection.
 In particular, the app uses the device camera to identify a sensor using their QRcode, and GPS to automatically identify the sensor location.
