@@ -73,7 +73,9 @@ We developed this application as an exemplary prototype mobile app for diabetic 
 
 Project File: [diabetes.aia](resources/diabetes.aia)
 
-Demo: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fFv-sPmd_G4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Demo: 
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fFv-sPmd_G4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### <a name="swot-usecase"></a> Punya in the Semantic Web of Things: LDP-CoAP
 
