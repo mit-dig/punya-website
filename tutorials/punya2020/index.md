@@ -110,7 +110,7 @@ App Inventor Summit as well as MoDeST, a workshop at ISWC 2015.
 
 **Affiliation:** Information Systems Laboratory, Polytechnic University of Bari, Italy
 
-<img alt="Floriano Scioscia image" src="http://sisinflab.poliba.it/assets/img/people/scioscia-679471825.jpg" width="128" height="128">
+<img src="https://sisinflab.poliba.it/wp-content/uploads/2020/07/scioscia-679471825.jpg" style="width: 128px">
 
 Floriano Scioscia has earned his Ph.D. in 2010 at the Polytechnic
 University of Bari (Italy), where he is an Assistant Professor
@@ -131,7 +131,7 @@ Blockchain and Distributed Ledger Technologies.
 
 **Affiliation:** NICHE Research Group, Dalhousie University, Canada
 
-![William Van Woensel image](https://niche.cs.dal.ca/wp-content/uploads/2015/02/william1-e1443634032823.png)
+<img src="https://niche.cs.dal.ca/wp-content/uploads/2022/05/PXL_20210502_200043903-3.jpg" style="width: 128px;">
 
 William Van Woensel received his Ph. D. of Computer Science in 2013 at
 the Vrije Universiteit Brussel (Belgium). He is currently a
