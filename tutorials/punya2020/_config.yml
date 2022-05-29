@@ -1,0 +1,7 @@
+lsi: false
+safe: true
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+theme: minima
+title: PUNYA2020
