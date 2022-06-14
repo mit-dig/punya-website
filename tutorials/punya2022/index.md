@@ -7,12 +7,17 @@ title: End-user Development of Mobile AI-based Clinical Apps
 
 Half-day tutorial at the [20th International Conference on Artificial Intelligence in Medicine (AIME 2022)](https://aime22.aimedicine.info/).
 
+- [Material](#material)
 - [Motivation](#motivation)
 - [Audience](#audience)
 - [Description](#description)
 - [Schedule](#schedule)
 - [Materials](#materials)
 - [Organizers](#organizers)
+
+### Material
+
+See the [Google Document](https://docs.google.com/document/d/13RKJF8Vjtq2Djcr9Tu1oZllJ-S_xwNQn6MJ48TW3KYk/edit?usp=sharing) for the tutorial material.
 
 ### Motivation
 
